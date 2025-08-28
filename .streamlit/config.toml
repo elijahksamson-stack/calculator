@@ -1,0 +1,11 @@
+[server]
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+# If you mount under a subpath, uncomment the next line and set it exactly
+# baseUrlPath = "your/subpath"
+
+[browser]
+gatherUsageStats = false
+# Optional; Streamlit Cloud sets this automatically
+# serverAddress = "tradingcalculator.streamlit.app"
